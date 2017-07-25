@@ -21,7 +21,25 @@
   bottom: 0;
   left: 0;
   width: 50%;
-  height: 50%;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+footer ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fix-bottom {
+	padding-top: 240px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");/*!
